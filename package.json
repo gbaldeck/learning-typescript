@@ -1,0 +1,21 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbaldeck/learning-typescript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbaldeck/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/gbaldeck/learning-typescript#readme",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
