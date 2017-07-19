@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "serve": "http-server -c-1 ."
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/gbaldeck/learning-typescript#readme",
   "devDependencies": {
+    "http-server": "^0.10.0",
     "typescript": "^2.4.1"
   }
 }

@@ -2,4 +2,6 @@
 *.iml
 /src/**/*.js
 /src/**/*.js.map
+/samples/**/*.js
+/samples/**/*.js.map
 /node_modules
