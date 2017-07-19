@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "serve": "http-server -c-1 ."
+    "serve": "http-server -c-1 .",
+    "types-examples": "node ./samples/learning-types.js"
   },
   "repository": {
     "type": "git",
