@@ -1,4 +1,5 @@
 
+
 type HasName2 = {firstName?: string, lastName: string}
 
 //type is the same as interface
@@ -23,7 +24,7 @@ type MessageCreator = (name:string) => string;
 const creator: MessageCreator = blue => "hi"
 
 //there is an error here because the MessageCreator function type only takes one parameter
-const creator2Params: MessageCreator = (blue:string, one:number) => "hi"
+// const creator2Params: MessageCreator = (blue:string, one:number) => "hi"
 
 //we can make the second parameter optional and then it can be a MessageCreator type
 const creator2Params1Optional: MessageCreator = (blue:string, one?:number) => "hi"
@@ -98,3 +99,24 @@ type PlayerInterfaceIU = (IHasName & HasAddress) | null
 
 const player:PlayerIU = {firstName: "Magic", lastName:"Johnson", address:"Staples"}
 
+//any can be assigned anything
+let thisAny: any = 1
+
+//and any can be assigned to anything
+let thisString: string = thisAny
+let thisNumber: number = thisAny
+
+// import * as _ from 'lodash';
+
+// const _:Lodash = require('lodash')
+
+import {_} from 'lodash'
+
+const colors = ["Red", "Green", "Blue"]
+
+const firstColor = _.first(colors)
+
+console.log(firstColor)
+
+
+function buildMessage()

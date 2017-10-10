@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/gbaldeck/learning-typescript#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.77",
+    "@types/node": "^8.0.33",
     "http-server": "^0.10.0",
     "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
